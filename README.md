@@ -1,2 +1,4 @@
 # Probabilistic Reliability Assessment of a Cascaded Cooling System Using Monte-Carlo Simulations   
-This repository serves as the portfolio for my MSc Data Science final project, “Monte Carlo Simulation of a Cascading Cooling System.”  It contains the raw data, code, documentation, and explanations for each stage of the project, covering the development, implementation, and analysis of the simulation.  Author: Harry Burgess UWE ID: 19046600
+Author: Harry Burgess UWE ID: 19046600
+
+This repository serves as the portfolio for my MSc Data Science final project, “Monte Carlo Simulation of a Cascading Cooling System.”  It contains the raw data, code, documentation, and explanations for each stage of the project, covering the development, implementation, and analysis of the simulation.  
