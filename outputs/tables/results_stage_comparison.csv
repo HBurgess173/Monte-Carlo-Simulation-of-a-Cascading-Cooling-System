@@ -1,0 +1,4 @@
+model_stage,scenario,case,subsystem,load_to_capacity_ratio,overload_probability_pct
+Deterministic baseline,Scenario Alpha,Baseline,FW,0.9520825978774392,0.0
+Independent Monte Carlo,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,FW,0.97861568788496,0.0
+Dependency Monte Carlo,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,FW,1.0269794118144255,9.225

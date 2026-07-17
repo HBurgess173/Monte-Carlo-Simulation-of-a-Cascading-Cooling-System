@@ -1,0 +1,11 @@
+scenario,margin_case,distribution_model,dependency_model,rho,subsystem,p99_load_to_capacity_ratio,p99_spare_capacity_kw,overload_probability_pct
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,FW,1.0269794118144255,-131.43775888928212,9.225
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,CW,1.0229121883121466,-31.89559910557296,4.077
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.75,FW,1.0210971397393829,-102.78062343953115,7.034999999999999
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,FW,1.0202101987479264,-237.1598108393409,6.941999999999999
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,CW,1.0166710557306478,-67.81885497561916,4.488
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.5,FW,1.016171756929388,-78.7852419734536,5.116
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.75,FW,1.0142367693800165,-167.06364817290523,5.077
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.75,CW,1.0132797478614004,-18.48647140289836,2.558
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.5,FW,1.0115597901315154,-56.31675436691421,3.592
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.5,FW,1.0106662987162451,-125.16538889357436,3.457

@@ -1,0 +1,3 @@
+propagation_type,system,item_description,matching_rows,alpha_candidate_sum_kw,bravo_candidate_sum_kw,expected_upstream_alpha_kw,expected_upstream_bravo_kw
+hvac_to_cw,CW,ITEM_000955,1,1026.76,307.29,1026.7,307.29
+cw_to_fw,FW,ITEM_001103,1,3814.64,1256.64,3814.63,1256.636

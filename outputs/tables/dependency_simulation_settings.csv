@@ -1,0 +1,10 @@
+Parameter,Value
+Number of simulations,"100,000"
+Random seed,19046606
+Dependency technique,Gaussian copula
+Dependency structures,Global Gaussian copula; Subsystem-block Gaussian copula
+Correlation values,"0.25, 0.5, 0.75"
+Uncertainty distributions,"Triangular, Truncated normal"
+Scenarios,"Scenario Alpha, Scenario Bravo"
+Uncertainty cases,Case A - CUM; Case B - CMM + CUM; Case C - CMM + CUM + DBM + IGM
+Cascade treatment,Recomputed from sampled local subsystem totals in every iteration

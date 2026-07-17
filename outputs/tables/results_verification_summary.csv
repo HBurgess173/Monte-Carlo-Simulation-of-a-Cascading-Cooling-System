@@ -1,0 +1,5 @@
+proposal_requirement,evidence,passed
+Conservation of load propagation through the cascade,"Recomputed deterministic cascade totals match stored cascade totals, and embedded propagation rows are excluded from local sums.",True
+Enforcement of physical bounds on sampled values,Notebook 04 validation samples and the focused convergence sample remain non-negative and within uncertainty bounds.,True
+Consistency of overload probabilities with increasing uncertainty,Overload probability and P99 load-to-capacity ratio are monotonic from Case A to Case C across independent and dependency result sets.,True
+Monte Carlo convergence,"The worst dependent case is re-evaluated from 100 to 1,000,000 cumulative samples. The 100,000-sample result is compared against the 1,000,000-sample long-run reference.",True

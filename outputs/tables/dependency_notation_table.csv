@@ -1,0 +1,6 @@
+Notation,Meaning,Use in this notebook
+$\rho$,Latent Gaussian copula correlation,"Tested at 0.25, 0.50 and 0.75."
+"$Z_{i,j}$",Latent normal value for load item $i$ in iteration $j$,Used to generate correlated uniforms through the Gaussian copula.
+"$U_{i,j}$",Correlated uniform quantile,"Calculated as $\Phi(Z_{i,j})$ and passed into the marginal inverse CDF."
+"$F_i^{-1}(U_{i,j})$",Inverse marginal distribution for load item $i$,Preserves the triangular or truncated normal marginal assumption from Notebook 05.
+"$Y_{s,j}$",Cascaded subsystem load,Recomputed each iteration using sampled local totals.

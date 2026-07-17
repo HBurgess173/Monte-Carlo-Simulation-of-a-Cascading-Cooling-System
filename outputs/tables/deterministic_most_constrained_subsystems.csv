@@ -1,0 +1,3 @@
+scenario,subsystem,deterministic_load_kw,capacity_kw,spare_capacity_kw,capacity_margin_pct,load_to_capacity_ratio,pass_fail
+Scenario Alpha,FW,11172.36557800847,11734.66,562.2944219915298,4.791740212256084,0.9520825978774392,Pass
+Scenario Bravo,FW,4636.317392640301,4871.78,235.46260735969918,4.833194589240467,0.9516680541075954,Pass

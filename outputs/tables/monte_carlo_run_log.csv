@@ -1,0 +1,13 @@
+scenario,margin_case,distribution_model,runtime_seconds,parameter_rows,non_degenerate_rows
+Scenario Alpha,Case A - CUM,Triangular,0.8206888999557123,2589,329
+Scenario Alpha,Case A - CUM,Truncated normal,6.390912699978799,2589,329
+Scenario Alpha,Case B - CMM + CUM,Triangular,3.351852299994789,2589,1378
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,23.936827300000004,2589,1378
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,3.5434542999137193,2589,1431
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,24.9170098999748,2589,1431
+Scenario Bravo,Case A - CUM,Triangular,0.7705664000241086,2589,301
+Scenario Bravo,Case A - CUM,Truncated normal,5.351401999942027,2589,301
+Scenario Bravo,Case B - CMM + CUM,Triangular,1.0452515999786556,2589,410
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,7.096992400009185,2589,410
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,1.1055260000284761,2589,447
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,7.893806600011885,2589,447

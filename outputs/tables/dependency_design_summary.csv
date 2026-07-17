@@ -1,0 +1,19 @@
+scenario,margin_case,system,records,non_degenerate_records,nominal_local_load_kw
+Scenario Alpha,Case A - CUM,HVAC,2326,252,1026.73344657341
+Scenario Alpha,Case A - CUM,CW,198,77,2787.8780311528
+Scenario Alpha,Case A - CUM,FW,65,0,7357.75410028226
+Scenario Alpha,Case B - CMM + CUM,HVAC,2326,1221,1026.73344657341
+Scenario Alpha,Case B - CMM + CUM,CW,198,157,2787.8780311528
+Scenario Alpha,Case B - CMM + CUM,FW,65,0,7357.75410028226
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,HVAC,2326,1221,1026.73344657341
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,CW,198,157,2787.8780311528
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,FW,65,53,7357.75410028226
+Scenario Bravo,Case A - CUM,HVAC,2326,247,307.292471684
+Scenario Bravo,Case A - CUM,CW,198,54,949.34619798416
+Scenario Bravo,Case A - CUM,FW,65,0,3379.67872297214
+Scenario Bravo,Case B - CMM + CUM,HVAC,2326,321,307.292471684
+Scenario Bravo,Case B - CMM + CUM,CW,198,89,949.34619798416
+Scenario Bravo,Case B - CMM + CUM,FW,65,0,3379.67872297214
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,HVAC,2326,321,307.292471684
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,CW,198,89,949.34619798416
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,FW,65,37,3379.67872297214

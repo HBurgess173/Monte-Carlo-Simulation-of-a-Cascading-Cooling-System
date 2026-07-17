@@ -1,0 +1,11 @@
+effect_group,sensitivity_term,effect_on_p99_ratio,absolute_effect
+Main effect,Uncertainty case: Case C vs Case A,0.0443628462276829,0.0443628462276829
+Main effect,Correlation: rho 0.75 vs rho 0.25,0.0098734146112378,0.0098734146112378
+Main effect,Dependency: global vs subsystem-block,0.0089078127247581,0.0089078127247581
+Interaction,Uncertainty case x dependency model,0.0077831961377355,0.0077831961377355
+Interaction,Uncertainty case x correlation,0.0076984193571383,0.0076984193571383
+Main effect,Scenario: Bravo vs Alpha,0.0029748565355954,0.0029748565355954
+Interaction,Dependency model x correlation,0.0025741934938391,0.0025741934938391
+Main effect,Distribution: truncated normal vs triangular,0.0023253119769405,0.0023253119769405
+Interaction,Scenario x uncertainty case,0.001308630419523,0.001308630419523
+Interaction,Distribution x correlation,0.0010458136655396,0.0010458136655396

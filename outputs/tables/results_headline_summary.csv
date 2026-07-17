@@ -1,0 +1,5 @@
+stage,case,subsystem,risk_metric,value,interpretation
+Deterministic baseline,Scenario Alpha,FW,Load-to-capacity ratio,0.9520825978774392,All deterministic loads remain below capacity; FW has the smallest margin.
+Independent Monte Carlo,Scenario Bravo | Case C - CMM + CUM + DBM + IGM | Truncated normal,FW,P99 load-to-capacity ratio,0.97861568788496,No overloads were observed; P99 remains below capacity.
+Dependency Monte Carlo,Scenario Bravo | Case C - CMM + CUM + DBM + IGM | Truncated normal | Global Gaussian copula | rho=0.75,FW,Overload probability (%),9.225,Positive dependency creates a material overload probability in FW.
+Extended convergence check,"100,000 vs 1,000,000 simulations",FW,Overload probability difference (percentage points),0.11060000000000159,The 100k result is close to the 1m long-run reference.

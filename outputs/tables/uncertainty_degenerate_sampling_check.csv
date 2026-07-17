@@ -1,0 +1,41 @@
+distribution,record_id,scenario,margin_case,nominal_load_kw,uncertainty_pct,all_samples_equal_nominal
+Triangular,1,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Truncated normal,1,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Triangular,1,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Truncated normal,1,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Triangular,1,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Truncated normal,1,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Triangular,10,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Truncated normal,10,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Triangular,10,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Truncated normal,10,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Triangular,10,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Truncated normal,10,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Triangular,13,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Truncated normal,13,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Triangular,13,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Truncated normal,13,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Triangular,13,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Truncated normal,13,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Triangular,15,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Truncated normal,15,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Triangular,15,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Truncated normal,15,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Triangular,15,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Truncated normal,15,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Triangular,16,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Truncated normal,16,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Triangular,16,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Truncated normal,16,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Triangular,16,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Truncated normal,16,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Triangular,18,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Truncated normal,18,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Triangular,18,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Truncated normal,18,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Triangular,18,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Truncated normal,18,Scenario Bravo,Case C - CMM + CUM + DBM + IGM,0.0,0.35,True
+Triangular,23,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Truncated normal,23,Scenario Bravo,Case A - CUM,0.0,0.15,True
+Triangular,23,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True
+Truncated normal,23,Scenario Bravo,Case B - CMM + CUM,0.0,0.25,True

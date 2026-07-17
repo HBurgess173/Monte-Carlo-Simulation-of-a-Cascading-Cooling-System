@@ -1,0 +1,3 @@
+PBS Code,Teamcenter ID,BOM ID,Item Description,HVAC Scenario Alpha Load,HVAC Scenario Bravo Load,CW Scenario Alpha Load,CW Scenario Bravo Load,FW Scenario Alpha Load,FW Scenario Bravo Load
+PBS_GROUP_0003,TC_000929,BOM_000975,ITEM_000955,,,1026.76,307.29,,
+PBS_GROUP_0034,TC_001128,BOM_001173,ITEM_001103,,,,,3814.64,1256.64

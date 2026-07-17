@@ -1,0 +1,3 @@
+propagation_type,embedded_row,downstream_system,excluded_from_local_sum,recomputed_upstream_alpha_kw,embedded_alpha_kw,recomputed_upstream_bravo_kw,embedded_bravo_kw,alpha_difference_kw,bravo_difference_kw,passes_workbook_rounding_check
+hvac_to_cw,ITEM_000955,CW,True,1026.73344657341,1026.76,307.292471684,307.29,-0.0265534265899987,0.0024716839999996,True
+cw_to_fw,ITEM_001103,FW,True,3814.61147772621,3814.64,1256.6386696681602,1256.64,-0.0285222737898038,-0.0013303318398811,True

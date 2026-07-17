@@ -1,0 +1,9 @@
+scenario,margin_case,distribution_model,subsystem,p99_load_to_capacity_ratio,p99_spare_capacity_kw,overload_probability_pct
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,FW,0.97861568788496,104.17966407581024,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,FW,0.9775723177068668,263.1812262979365,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,FW,0.9764575451337308,114.69366076839287,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,FW,0.9755441991721296,286.9805077427809,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,FW,0.9560554471463872,214.0881937011736,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,FW,0.955751002521977,215.5713809334829,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,FW,0.9549115427711788,529.0977155047585,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,FW,0.9546827455851316,531.7825726919782,0.0

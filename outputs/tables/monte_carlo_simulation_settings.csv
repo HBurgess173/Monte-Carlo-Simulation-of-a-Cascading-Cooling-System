@@ -1,0 +1,11 @@
+Parameter,Notation,Value
+Number of simulations,$N$,"100,000"
+Random seed,-,19046600
+Operating scenarios,-,"Scenario Alpha, Scenario Bravo"
+Uncertainty cases,-,Case A - CUM; Case B - CMM + CUM; Case C - CMM + CUM + DBM + IGM
+Uncertainty models,-,"Triangular, Truncated normal"
+Dependency assumption,-,Independent item-level sampling
+Cascade treatment,"$Y_{s,j}$",Recomputed each iteration from sampled local subsystem totals
+Capacity treatment,$C_s$,Fixed deterministic capacity by subsystem and scenario
+Truncated normal standard deviation,$\sigma_i$,95% interval assumption: (uncertainty band x nominal load) / 1.96
+Chunk size,-,150

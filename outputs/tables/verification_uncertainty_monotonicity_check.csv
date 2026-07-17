@@ -1,0 +1,85 @@
+source,scenario,distribution_model,subsystem,overload_case_a_pct,overload_case_b_pct,overload_case_c_pct,p99_ratio_case_a,p99_ratio_case_b,p99_ratio_case_c,overload_probability_monotonic,p99_ratio_monotonic,dependency_model,rho,passed
+Independent Monte Carlo,Scenario Alpha,Triangular,CW,0.0,0.0,0.0,0.9401163637867194,0.9451982829716772,0.9493639788340292,True,True,,,True
+Independent Monte Carlo,Scenario Alpha,Triangular,FW,0.0,0.0,0.0,0.9529209943150002,0.9546827455851316,0.9755441991721296,True,True,,,True
+Independent Monte Carlo,Scenario Alpha,Triangular,HVAC,0.0,0.0,0.0,0.8879983593169145,0.8954898581065659,0.8995700945257704,True,True,,,True
+Independent Monte Carlo,Scenario Alpha,Truncated normal,CW,0.0,0.0,0.0,0.940309040908301,0.9458582676295294,0.950433344974472,True,True,,,True
+Independent Monte Carlo,Scenario Alpha,Truncated normal,FW,0.0,0.0,0.0,0.9529877897816964,0.9549115427711788,0.9775723177068668,True,True,,,True
+Independent Monte Carlo,Scenario Alpha,Truncated normal,HVAC,0.0,0.0,0.0,0.8882108652556163,0.8962727795515579,0.9008438456358456,True,True,,,True
+Independent Monte Carlo,Scenario Bravo,Triangular,CW,0.0,0.0,0.0,0.9082237558725664,0.9169946383069776,0.9233486512447155,True,True,,,True
+Independent Monte Carlo,Scenario Bravo,Triangular,FW,0.0,0.0,0.0,0.9532447789200706,0.955751002521977,0.9764575451337308,True,True,,,True
+Independent Monte Carlo,Scenario Bravo,Triangular,HVAC,0.0,0.0,0.0,0.8315700174872455,0.8429608420498431,0.8506738763747734,True,True,,,True
+Independent Monte Carlo,Scenario Bravo,Truncated normal,CW,0.0,0.0,0.0,0.908700337072266,0.918060085143588,0.9253277757200656,True,True,,,True
+Independent Monte Carlo,Scenario Bravo,Truncated normal,FW,0.0,0.0,0.0,0.9533809589521076,0.9560554471463872,0.97861568788496,True,True,,,True
+Independent Monte Carlo,Scenario Bravo,Truncated normal,HVAC,0.0,0.0,0.0,0.832190146863097,0.8444444050886417,0.852850350421709,True,True,,,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,CW,0.0,0.0,0.031,0.9464055887152996,0.9684059640990408,0.9830405591491972,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,FW,0.0,0.0,0.374,0.9551012828246768,0.962728163116358,0.994446854757293,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,HVAC,0.0,0.0,0.0,0.8931421721685924,0.92359977899479,0.9402260204164996,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,CW,0.0,0.0,0.8619999999999999,0.949547302160033,0.9793242998140842,0.998966062007524,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,FW,0.0,0.0,2.262,0.9561904220750668,0.9665132275996016,1.00611334803807,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,HVAC,0.0,0.0,0.0,0.8957742989309918,0.9369453840490924,0.959537219444232,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,CW,0.0,0.01,2.947,0.9517934650691056,0.9874960180569694,1.0101539199190597,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,FW,0.0,0.0,5.077,0.9569691004077908,0.9693461209356808,1.0142367693800165,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,HVAC,0.0,0.0,0.0,0.8976022133892331,0.9470081570880008,0.9728774012770954,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,CW,0.0,0.0,0.001,0.9447718775322616,0.9608561120256796,0.9716503673784246,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,FW,0.0,0.0,0.004,0.9545349234145816,0.9601108524123788,0.98406356252579,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,HVAC,0.0,0.0,0.0,0.8931183196126209,0.9237105468037012,0.9400541404996452,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,CW,0.0,0.0,0.039,0.9472160502701378,0.9691734654256476,0.984292335892782,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,FW,0.0,0.0,0.101,0.9553822459060762,0.9629942331556024,0.9904983559635848,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,HVAC,0.0,0.0,0.0,0.8957394631312787,0.937350572706545,0.9594741461600944,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,CW,0.0,0.0,0.376,0.9490864133212707,0.9758527006225672,0.9932025342494684,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,FW,0.0,0.0,0.446,0.9560306455285444,0.9653097267050684,0.995677195024241,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Triangular,HVAC,0.0,0.0,0.0,0.8975594621360818,0.9471648496212888,0.9735988895761526,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,CW,0.0,0.0,0.09,0.9472456322608872,0.9708039962255192,0.9864906617453856,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,FW,0.0,0.0,0.685,0.9553925011084672,0.9635594900207968,0.9977639878458084,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,HVAC,0.0,0.0,0.0,0.8938011115880965,0.9266135677488962,0.9441258623504888,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,CW,0.0,0.002,1.62,0.9505095655105308,0.9827332491256516,1.0042934859847144,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,FW,0.0,0.0,3.457,0.9565240103550532,0.967695009631328,1.0106662987162451,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,HVAC,0.0,0.0,0.0,0.8965558236781179,0.941380869134048,0.9657135439322492,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,CW,0.0,0.068,4.488,0.952794927469308,0.9916013251794428,1.0166710557306478,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,FW,0.0,0.0,6.941999999999999,0.9573162778404362,0.9707693096512164,1.0202101987479264,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,HVAC,0.0,0.0,0.0,0.8984722299321828,0.9520735825015868,0.980606378232884,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,CW,0.0,0.0,0.002,0.9453787090310012,0.9628751697211236,0.9746548477086482,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,FW,0.0,0.0,0.025,0.9547452939704189,0.9608108000758414,0.9867882707659502,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,HVAC,0.0,0.0,0.0,0.8937642389628888,0.9267844411129132,0.9447345208407592,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,CW,0.0,0.0,0.136,0.9480530158092212,0.9722688683634036,0.9881836722439796,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,FW,0.0,0.0,0.26,0.9556723971359308,0.9640673179211572,0.9934739671999404,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,HVAC,0.0,0.0,0.0,0.8965955386065726,0.941749442354098,0.9653471390238256,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,CW,0.0,0.0,0.758,0.9499689917418906,0.9786428241146592,0.9979300535822316,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,FW,0.0,0.0,0.902,0.9563366093971002,0.96627698010425,0.999346043645101,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Alpha,Truncated normal,HVAC,0.0,0.0,0.0,0.8985551902624952,0.9519619994465478,0.9801778083183164,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,CW,0.0,0.0,0.029,0.9196279205694344,0.9507401109327164,0.9716602597970536,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,FW,0.0,0.0,0.766,0.956503446099462,0.965393555661248,0.9983791859916904,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,HVAC,0.0,0.0,0.0,0.8468633369255556,0.8834773422578235,0.908357896236502,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,CW,0.0,0.0,0.734,0.9255411102484938,0.968302581575842,0.9963350433634752,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,FW,0.0,0.0,3.592,0.958193102259721,0.9704119194077396,1.0115597901315154,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,HVAC,0.0,0.0,0.0,0.8547324455727429,0.9044968074299315,0.9381820902266812,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,CW,0.0,0.002,2.558,0.9298699042344796,0.9800195631195838,1.0132797478614004,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,FW,0.0,0.0,7.034999999999999,0.9594300274763792,0.973759972001948,1.0210971397393829,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,HVAC,0.0,0.0,0.0,0.8606220162032404,0.9188710643434436,0.9586433395201356,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,CW,0.0,0.0,0.0,0.9157725117337558,0.939291743969172,0.956116920631394,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,FW,0.0,0.0,0.018,0.9554017876641528,0.9621222579666456,0.985806389627884,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,HVAC,0.0,0.0,0.0,0.8468464421638203,0.8832188312918802,0.908715248619856,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,CW,0.0,0.0,0.03,0.919963768043188,0.9527405983962648,0.9743672458137872,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,FW,0.0,0.0,0.234,0.9565994123687236,0.965965182169066,0.993035921992756,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,HVAC,0.0,0.0,0.0,0.8549036092899058,0.9042513141222088,0.938182246041566,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,CW,0.0,0.0,0.287,0.923365026684011,0.962730841080018,0.9881126544497044,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,FW,0.0,0.0,0.7929999999999999,0.957571300288276,0.9688198301694272,0.998558780404162,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Triangular,HVAC,0.0,0.0,0.0,0.8606057475714726,0.9190235842982644,0.959021313112152,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,CW,0.0,0.0,0.075,0.9211122978775732,0.9546760059918056,0.9772490791991914,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,FW,0.0,0.0,1.288,0.956927597428774,0.9665182125205186,1.0019086944747169,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,HVAC,0.0,0.0,0.0,0.84883587321712,0.8886509592670075,0.9154003934586912,True,True,Global Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,CW,0.0,0.0,1.342,0.927644984894354,0.9732762676629064,1.0039325794696283,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,FW,0.0,0.0,5.116,0.9587942709941484,0.971833118420848,1.016171756929388,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,HVAC,0.0,0.0,0.0,0.8576353252448748,0.911048540891304,0.9476102044813608,True,True,Global Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,CW,0.0,0.036,4.077,0.9321031305145208,0.986251477765142,1.0229121883121466,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,FW,0.0,0.0,9.225,0.960068157613602,0.975540701784448,1.0269794118144255,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,HVAC,0.0,0.0,0.0,0.863508640786689,0.9268528546041276,0.9704998039167196,True,True,Global Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,CW,0.0,0.0,0.001,0.9168001478599704,0.9432224117471752,0.9602667825475376,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,FW,0.0,0.0,0.059,0.9556954281197116,0.9632454211637528,0.9886269330069122,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,HVAC,0.0,0.0,0.0,0.8487313879535088,0.8880061354497816,0.9156911831760308,True,True,Subsystem-block Gaussian copula,0.25,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,CW,0.0,0.0,0.088,0.9215923957372044,0.956546362897132,0.9794812814287386,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,FW,0.0,0.0,0.545,0.957064782323912,0.9670526550529742,0.9963150714279768,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,HVAC,0.0,0.0,0.0,0.8571483860644413,0.9105172512009966,0.9482963806087592,True,True,Subsystem-block Gaussian copula,0.5,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,CW,0.0,0.0,0.6709999999999999,0.9252117583481906,0.9667085929739038,0.9956010405917888,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,FW,0.0,0.0,1.534,0.9580989920590604,0.9699564473517382,1.0029597080706985,True,True,Subsystem-block Gaussian copula,0.75,True
+Dependency Monte Carlo,Scenario Bravo,Truncated normal,HVAC,0.0,0.0,0.0,0.8633482580889998,0.926799602314644,0.9714281532892712,True,True,Subsystem-block Gaussian copula,0.75,True

@@ -1,0 +1,10 @@
+Parameter,Value
+Focused scenario,Scenario Bravo
+Focused uncertainty case,Case C - CMM + CUM + DBM + IGM
+Focused distribution,Truncated normal
+Focused dependency model,Global Gaussian copula
+Focused latent correlation,0.75
+Target subsystem,FW
+Sensitivity simulations,"100,000"
+Random seed,19046607
+Top features used in logistic regression,30

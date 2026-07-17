@@ -1,0 +1,11 @@
+Notation,Meaning,Use in this notebook
+$N$,Number of Monte Carlo iterations,"Set to 100,000 for each scenario, margin case and uncertainty model."
+$i$,Load item index,Each row in the uncertainty parameter table is sampled independently.
+$s$,Subsystem index,"HVAC, CW and FW."
+$j$,Monte Carlo iteration index,One sampled operating state of the cascaded cooling system.
+"$L_{i,j}$",Sampled load for item $i$ in iteration $j$,Drawn from either the triangular or truncated normal model.
+"$T_{s,j}$",Sampled local total for subsystem $s$ in iteration $j$,Sum of local sampled item loads before cascade propagation.
+"$Y_{s,j}$",Cascaded subsystem load for subsystem $s$ in iteration $j$,The load compared against capacity after upstream loads are propagated.
+$C_s$,Capacity of subsystem $s$,Fixed capacity from the deterministic baseline.
+"$I(Y_{s,j} > C_s)$",Overload indicator,"Equals 1 when sampled load exceeds capacity, otherwise 0."
+"$\hat{P}_{f,s}$",Estimated overload probability for subsystem $s$,Mean overload indicator across all $N$ iterations.

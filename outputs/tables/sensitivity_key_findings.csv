@@ -1,0 +1,5 @@
+finding,evidence
+Worst modelling assumption,"{'scenario': 'Scenario Bravo', 'margin_case': 'Case C - CMM + CUM + DBM + IGM', 'distribution_model': 'Truncated normal', 'dependency_model': 'Global Gaussian copula', 'rho': 0.75, 'subsystem': 'FW', 'p99_load_to_capacity_ratio': 1.0269794118144255}"
+Strongest consumer / load item,"{'item_description': 'ITEM_000076', 'system': 'FW', 'spearman_fw_load': 0.9221938177641126, 'sample_p99_kw': 992.9982586669922}"
+Largest DoE main effect,"{'term': 'Uncertainty case: Case C vs Case A', 'effect': 0.04436284622768294}"
+Largest selected DoE interaction,"{'term': 'Uncertainty case x dependency model', 'effect': 0.007783196137735593}"

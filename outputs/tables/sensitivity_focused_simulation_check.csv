@@ -1,0 +1,2 @@
+scenario,margin_case,distribution_model,dependency_model,rho,subsystem,simulations,capacity_kw,mean_load_kw,p95_load_kw,p99_load_kw,overload_count,overload_probability_pct
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,FW,100000,4871.78,4636.0957,4917.7613525390625,5001.09115234375,8992,8.992

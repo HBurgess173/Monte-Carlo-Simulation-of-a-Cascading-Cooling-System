@@ -1,0 +1,4 @@
+system,record_count,alpha_positive_load_records,bravo_positive_load_records,positive_load_records_either_scenario,positive_load_records_both_scenarios,propagation_candidate_count
+CW,199,182,102,186,98,1
+FW,66,57,40,63,34,1
+HVAC,2326,1594,538,1598,534,0

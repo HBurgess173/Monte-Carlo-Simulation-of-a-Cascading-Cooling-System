@@ -1,0 +1,2 @@
+comparison,notebook06_overload_probability_pct,notebook08_100k_overload_probability_pct,notebook08_1m_overload_probability_pct,notebook06_p99_load_to_capacity_ratio,notebook08_100k_p99_load_to_capacity_ratio,notebook08_1m_p99_load_to_capacity_ratio
+Notebook 08 extended convergence run vs Notebook 06 stored 100k result,9.225,9.178,9.067400000000001,1.0269794118144255,1.0268466949259305,1.0267306627563488

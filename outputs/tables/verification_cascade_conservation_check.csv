@@ -1,0 +1,7 @@
+scenario,subsystem,expected_cascade_load_kw,observed_cascade_load_kw,difference_kw,passes_conservation_check
+Scenario Alpha,HVAC,1026.73344657341,1026.73344657341,0.0,True
+Scenario Alpha,CW,3814.61147772621,3814.61147772621,0.0,True
+Scenario Alpha,FW,11172.36557800847,11172.36557800847,0.0,True
+Scenario Bravo,HVAC,307.292471684,307.292471684,0.0,True
+Scenario Bravo,CW,1256.63866966816,1256.6386696681602,2.2737367544323206e-13,True
+Scenario Bravo,FW,4636.317392640301,4636.317392640301,0.0,True

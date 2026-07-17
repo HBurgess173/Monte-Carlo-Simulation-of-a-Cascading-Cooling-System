@@ -1,0 +1,5 @@
+check,count
+exact_duplicate_rows,2
+duplicate_bom_id_nonblank,109
+duplicate_teamcenter_id_nonblank,0
+duplicate_item_description_nonblank,728

@@ -1,0 +1,6 @@
+finding,result
+Deterministic baseline,"All systems pass, but FW is the most constrained subsystem."
+Independent Monte Carlo,No overloads are observed; the worst P99 load-to-capacity ratio remains below 1.
+Dependency Monte Carlo,Positive dependency creates the main risk signal; the worst FW overload probability is 9.225% in Notebook 06.
+Sensitivity,ITEM_000076 is the strongest consumer/load item in the focused FW sensitivity analysis.
+Verification,"All proposal verification checks pass, and the 100k result is close to the 1m convergence reference."

@@ -1,0 +1,3 @@
+source_row,record_id,item_description,system,propagation_type,alpha_load_model_kw,bravo_load_model_kw
+995,996,ITEM_000955,CW,hvac_to_cw,1026.76,307.29
+1194,1195,ITEM_001103,FW,cw_to_fw,3814.64,1256.64

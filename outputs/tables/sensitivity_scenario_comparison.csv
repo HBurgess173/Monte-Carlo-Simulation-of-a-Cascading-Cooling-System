@@ -1,0 +1,253 @@
+scenario,margin_case,distribution_model,dependency_model,rho,subsystem,p99_load_to_capacity_ratio,p99_spare_capacity_kw,overload_probability_pct
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,FW,1.0269794118144255,-131.43775888928212,9.225
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,CW,1.0229121883121466,-31.89559910557296,4.077
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.75,FW,1.0210971397393829,-102.78062343953115,7.034999999999999
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,FW,1.0202101987479264,-237.1598108393409,6.941999999999999
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,CW,1.0166710557306478,-67.81885497561916,4.488
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.5,FW,1.016171756929388,-78.7852419734536,5.116
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.75,FW,1.0142367693800165,-167.06364817290523,5.077
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.75,CW,1.0132797478614004,-18.48647140289836,2.558
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.5,FW,1.0115597901315154,-56.31675436691421,3.592
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.5,FW,1.0106662987162451,-125.16538889357436,3.457
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.75,CW,1.0101539199190597,-41.306755465929655,2.947
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.5,FW,1.00611334803807,-71.73806068841805,2.262
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.5,CW,1.0042934859847144,-17.466158594977514,1.62
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.5,CW,1.0039325794696283,-5.474465228080362,1.342
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.75,FW,1.0029597080706985,-14.41904658466683,1.534
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.25,FW,1.0019086944747169,-9.29873956803658,1.288
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.75,FW,0.999346043645101,7.673955479578581,0.902
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.5,CW,0.998966062007524,4.20612178967167,0.8619999999999999
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.75,FW,0.998558780404162,7.021304802611667,0.7929999999999999
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.25,FW,0.9983791859916904,7.896249269401778,0.766
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.75,CW,0.9979300535822316,8.42066622426728,0.758
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.25,FW,0.9977639878458084,26.23884238530627,0.685
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.5,CW,0.9963350433634752,5.101912834573568,0.734
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.5,FW,0.9963150714279768,17.952161318610706,0.545
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.75,FW,0.995677195024241,50.72664663684009,0.446
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.75,CW,0.9956010405917888,6.12370341298265,0.6709999999999999
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.25,FW,0.994446854757293,65.16427135378399,0.374
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.5,FW,0.9934739671999404,76.58077605754806,0.26
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.75,CW,0.9932025342494684,27.65249852110765,0.376
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.5,FW,0.993035921992756,33.9274559541318,0.234
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.75,CW,0.9916013251794428,34.166313090515814,0.068
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.5,FW,0.9904983559635848,111.49856220835863,0.101
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.25,FW,0.9886269330069122,55.40708031558552,0.059
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.5,CW,0.9881836722439796,48.06953029115584,0.136
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.75,CW,0.9881126544497044,16.54813599365525,0.287
+Scenario Alpha,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.75,CW,0.9874960180569694,50.86694878316485,0.01
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.25,FW,0.9867882707659502,155.03515057363438,0.025
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.25,CW,0.9864906617453856,54.956798580066334,0.09
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.75,CW,0.986251477765142,19.139042832701307,0.036
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.25,FW,0.985806389627884,69.14814713866781,0.018
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.5,CW,0.984292335892782,63.899720048009385,0.039
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.25,FW,0.98406356252579,187.008675371113,0.004
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.25,CW,0.9830405591491972,68.99202294751649,0.031
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.5,CW,0.9827332491256516,70.24217856190126,0.002
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,HVAC,0.980606378232884,22.485352949229764,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.75,HVAC,0.9801778083183164,22.98224547957761,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.75,CW,0.9800195631195838,27.81436657248969,0.002
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.5,CW,0.9794812814287386,28.56369774868153,0.088
+Scenario Alpha,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.5,CW,0.9793242998140842,84.10998889831671,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,CW,0.9786428241146592,86.88227293211958,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Independent,0.0,FW,0.97861568788496,104.17966407581024,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Independent,0.0,FW,0.9775723177068668,263.1812262979365,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.25,CW,0.9772490791991914,31.671101828389737,0.075
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Independent,0.0,FW,0.9764575451337308,114.69366076839287,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.75,CW,0.9758527006225672,98.23266270535942,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Independent,0.0,FW,0.9755441991721296,286.9805077427809,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.75,FW,0.975540701784448,119.16031986056169,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.25,CW,0.9746548477086482,103.10560023035669,0.002
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.5,CW,0.9743672458137872,35.68284444754295,0.03
+Scenario Bravo,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.75,FW,0.973759972001948,127.83564360035052,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.75,HVAC,0.9735988895761526,30.609975447617217,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.5,CW,0.9732762676629064,37.20157331182122,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.75,HVAC,0.9728774012770954,31.44648341131005,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,CW,0.9722688683634036,112.8119073655721,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.5,FW,0.971833118420848,137.22285033968183,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.25,CW,0.9716602597970536,39.45118554171768,0.029
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.25,CW,0.9716503673784246,115.32800648252623,0.001
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.75,HVAC,0.9714281532892712,10.65529879383206,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.25,CW,0.9708039962255192,118.77109511481422,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.75,FW,0.9707693096512164,343.01221280825666,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.75,HVAC,0.9704998039167196,11.00150812533775,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.5,FW,0.9704119194077396,144.1466192677617,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,FW,0.9699564473517382,146.3655789207487,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.75,FW,0.9693461209356808,359.71284850090524,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.5,CW,0.9691734654256476,125.40419224053994,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.75,FW,0.9688198301694272,151.90292777718878,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.25,CW,0.9684059640990408,128.52643368725603,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.5,CW,0.968302581575842,44.12534223990201,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.5,FW,0.967695009631328,379.0880782796412,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,FW,0.9670526550529742,160.51221616602106,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,CW,0.9667085929739038,46.3443018928881,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.25,FW,0.9665182125205186,163.11590260678804,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.5,FW,0.9665132275996016,392.9558886160594,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,FW,0.96627698010425,395.7281726498604,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.5,FW,0.965965182169066,165.810144812388,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.5,HVAC,0.9657135439322492,39.752402894071565,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.25,FW,0.965393555661248,168.5949834006451,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.5,HVAC,0.9653471390238256,40.17722007299608,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.75,FW,0.9653097267050684,407.0785624231012,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,FW,0.9640673179211572,421.65780708331295,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.25,FW,0.9635594900207968,427.6169948325551,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,FW,0.9632454211637528,179.0602220828523,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.5,FW,0.9629942331556024,434.2500919582799,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,CW,0.9628751697211236,151.0260370642859,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.75,CW,0.962730841080018,51.8816507493284,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.25,FW,0.962728163116358,437.3723334049973,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.25,FW,0.9621222579666456,184.532026083255,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.25,CW,0.9608561120256796,159.23968491281357,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,FW,0.9608108000758414,459.8719367820268,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.25,CW,0.9602667825475376,55.31181735122391,0.001
+Scenario Alpha,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.25,FW,0.9601108524123788,468.0855846305549,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Global Gaussian copula,0.75,FW,0.960068157613602,194.5391511012067,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.5,HVAC,0.959537219444232,46.91335703196864,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.5,HVAC,0.9594741461600944,46.98648545906349,0.0
+Scenario Bravo,Case A - CUM,Triangular,Global Gaussian copula,0.75,FW,0.9594300274763792,197.64798074112605,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.75,HVAC,0.959021313112152,15.282181701085165,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Global Gaussian copula,0.5,FW,0.9587942709941484,200.74524645612743,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.75,HVAC,0.9586433395201356,15.423139392755786,0.0
+Scenario Bravo,Case A - CUM,Triangular,Global Gaussian copula,0.5,FW,0.958193102259721,203.67400827313668,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,FW,0.9580989920590604,204.13249246651048,0.0
+Scenario Bravo,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.75,FW,0.957571300288276,206.70329068158208,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Global Gaussian copula,0.75,FW,0.9573162778404362,500.87896707694745,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,FW,0.957064782323912,209.1709347700125,0.0
+Scenario Alpha,Case A - CUM,Triangular,Global Gaussian copula,0.75,FW,0.9569691004077908,504.952976208715,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Global Gaussian copula,0.25,FW,0.956927597428774,209.83926939844787,0.0
+Scenario Bravo,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.5,FW,0.9565994123687236,211.4381148102993,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,CW,0.956546362897132,60.49093913816023,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Global Gaussian copula,0.5,FW,0.9565240103550532,510.1759566469718,0.0
+Scenario Bravo,Case A - CUM,Triangular,Global Gaussian copula,0.25,FW,0.956503446099462,211.90564136156263,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,FW,0.9563366093971002,512.3750431722237,0.0
+Scenario Alpha,Case A - CUM,Triangular,Global Gaussian copula,0.5,FW,0.9561904220750668,514.0905016925972,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.25,CW,0.956116920631394,61.08875712744907,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Independent,0.0,FW,0.9560554471463872,214.0881937011736,0.0
+Scenario Alpha,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.75,FW,0.9560306455285444,515.9654251420125,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Independent,0.0,FW,0.955751002521977,215.5713809334829,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,FW,0.9556954281197116,215.8421271949519,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,FW,0.9556723971359308,520.1693482248793,0.0
+Scenario Bravo,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.25,FW,0.9554017876641528,217.2726788935333,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Global Gaussian copula,0.25,FW,0.9553925011084672,523.4538329425159,0.0
+Scenario Alpha,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.5,FW,0.9553822459060762,523.5741742558039,0.0
+Scenario Alpha,Case A - CUM,Triangular,Global Gaussian copula,0.25,FW,0.9551012828246768,526.8711804885788,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Independent,0.0,FW,0.9549115427711788,529.0977155047585,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,FW,0.9547452939704189,531.0485886570859,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Independent,0.0,FW,0.9546827455851316,531.7825726919782,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.25,CW,0.9546760059918056,63.09462557892744,0.0
+Scenario Alpha,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.25,FW,0.9545349234145816,533.517215603848,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Independent,0.0,FW,0.9533809589521076,227.11771179630068,0.0
+Scenario Bravo,Case A - CUM,Triangular,Independent,0.0,FW,0.9532447789200706,227.78115095277823,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Independent,0.0,FW,0.9529877897816964,551.6723027603184,0.0
+Scenario Alpha,Case A - CUM,Triangular,Independent,0.0,FW,0.9529209943150002,552.4561248515402,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Global Gaussian copula,0.75,CW,0.952794927469308,192.03306735920705,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.5,CW,0.9527405983962648,65.78886778452784,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.75,HVAC,0.9520735825015868,55.56684697601031,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,HVAC,0.9519619994465478,55.69621860168354,0.0
+Scenario Alpha,Case A - CUM,Triangular,Global Gaussian copula,0.75,CW,0.9517934650691056,196.10707649097455,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.25,CW,0.9507401109327164,68.57370637278405,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Global Gaussian copula,0.5,CW,0.9505095655105308,201.33005692923047,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Independent,0.0,CW,0.950433344974472,201.64012664314944,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,CW,0.9499689917418906,203.52914345448423,0.0
+Scenario Alpha,Case A - CUM,Triangular,Global Gaussian copula,0.5,CW,0.949547302160033,205.24460197485587,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Independent,0.0,CW,0.9493639788340292,205.9903722644389,0.0
+Scenario Alpha,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.75,CW,0.9490864133212707,207.1195254242707,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.5,HVAC,0.9482963806087592,19.281830779575387,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,CW,0.9480530158092212,211.32344850713932,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.5,HVAC,0.9476102044813608,19.53772644276609,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Global Gaussian copula,0.25,CW,0.9472456322608872,214.60793322477505,0.0
+Scenario Alpha,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.5,CW,0.9472160502701378,214.7282745380635,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.75,HVAC,0.9471648496212888,61.25813005208556,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.75,HVAC,0.9470081570880008,61.43980250902996,0.0
+Scenario Alpha,Case A - CUM,Triangular,Global Gaussian copula,0.25,CW,0.9464055887152996,218.02528077083844,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Independent,0.0,CW,0.9458582676295294,220.2518157870172,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,CW,0.9453787090310012,222.20268893934556,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Independent,0.0,CW,0.9451982829716772,222.93667297423823,0.0
+Scenario Alpha,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.25,CW,0.9447718775322616,224.67131588610755,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.25,HVAC,0.9447345208407592,64.07590184680703,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.25,HVAC,0.9441258623504888,64.78159267359615,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,CW,0.9432224117471752,79.03894505499238,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,HVAC,0.941749442354098,67.53686154581169,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.5,HVAC,0.941380869134048,67.96419270860201,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Independent,0.0,CW,0.940309040908301,242.8264030425771,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.25,HVAC,0.9402260204164996,69.30314740870199,0.0
+Scenario Alpha,Case A - CUM,Triangular,Independent,0.0,CW,0.9401163637867194,243.6102251337984,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.25,HVAC,0.9400541404996452,69.50242842190119,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.25,CW,0.939291743969172,84.51074905539485,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.5,HVAC,0.938182246041566,23.053694983718856,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.5,HVAC,0.9381820902266812,23.05375309176384,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.5,HVAC,0.937350572706545,72.63699899257767,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.5,HVAC,0.9369453840490924,73.10678282580125,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Global Gaussian copula,0.75,CW,0.9321031305145208,94.51787407334608,0.0
+Scenario Bravo,Case A - CUM,Triangular,Global Gaussian copula,0.75,CW,0.9298699042344796,97.62670371326568,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Global Gaussian copula,0.5,CW,0.927644984894354,100.72396942826754,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.75,HVAC,0.9268528546041276,27.27876493248266,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,HVAC,0.926799602314644,27.298624308799845,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,HVAC,0.9267844411129132,84.8875832848662,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.25,HVAC,0.9266135677488962,85.08569728057478,0.0
+Scenario Bravo,Case A - CUM,Triangular,Global Gaussian copula,0.5,CW,0.9255411102484938,103.65273124527675,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Independent,0.0,CW,0.9253277757200656,103.94970997561086,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,CW,0.9252117583481906,104.1112154386508,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.25,HVAC,0.9237105468037012,88.45151782485254,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.25,HVAC,0.92359977899479,88.57994423786067,0.0
+Scenario Bravo,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.75,CW,0.923365026684011,106.68201365372192,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Independent,0.0,CW,0.9233486512447155,106.70480957525616,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,CW,0.9215923957372044,109.1496577421526,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Global Gaussian copula,0.25,CW,0.9211122978775732,109.81799237058772,0.0
+Scenario Bravo,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.5,CW,0.919963768043188,111.41683778243872,0.0
+Scenario Bravo,Case A - CUM,Triangular,Global Gaussian copula,0.25,CW,0.9196279205694344,111.88436433370155,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.75,HVAC,0.9190235842982644,30.19853470764832,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.75,HVAC,0.9188710643434436,30.25541397439963,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Independent,0.0,CW,0.918060085143588,114.06691667331415,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Independent,0.0,CW,0.9169946383069776,115.55010390562256,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,CW,0.9168001478599704,115.8208501670922,0.0
+Scenario Bravo,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.25,CW,0.9157725117337558,117.2514018656732,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Subsystem-block Gaussian copula,0.25,HVAC,0.9156911831760308,31.4412870581628,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Global Gaussian copula,0.25,HVAC,0.9154003934586912,31.549731267450284,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.5,HVAC,0.911048540891304,33.172667645405966,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,HVAC,0.9105172512009966,33.37080150961236,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Subsystem-block Gaussian copula,0.25,HVAC,0.908715248619856,34.04282233219709,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Independent,0.0,CW,0.908700337072266,127.09643476844008,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Global Gaussian copula,0.25,HVAC,0.908357896236502,34.17608975652132,0.0
+Scenario Bravo,Case A - CUM,Triangular,Independent,0.0,CW,0.9082237558725664,127.75987392491788,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.5,HVAC,0.9044968074299315,35.61600560515558,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.5,HVAC,0.9042513141222088,35.70755742440463,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Truncated normal,Independent,0.0,HVAC,0.9008438456358456,114.96362849288788,0.0
+Scenario Alpha,Case C - CMM + CUM + DBM + IGM,Triangular,Independent,0.0,HVAC,0.8995700945257704,116.44044100493124,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,HVAC,0.8985551902624952,117.6171413058578,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Global Gaussian copula,0.75,HVAC,0.8984722299321828,117.71332717202858,0.0
+Scenario Alpha,Case A - CUM,Triangular,Global Gaussian copula,0.75,HVAC,0.8976022133892331,118.72204175225534,0.0
+Scenario Alpha,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.75,HVAC,0.8975594621360818,118.77160841018394,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,HVAC,0.8965955386065726,119.88920062876764,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Global Gaussian copula,0.5,HVAC,0.8965558236781179,119.93524691111656,0.0
+Scenario Alpha,Case B - CMM + CUM,Truncated normal,Independent,0.0,HVAC,0.8962727795515579,120.2634139323327,0.0
+Scenario Alpha,Case A - CUM,Triangular,Global Gaussian copula,0.5,HVAC,0.8957742989309918,120.84136233342952,0.0
+Scenario Alpha,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.5,HVAC,0.8957394631312787,120.88175165633288,0.0
+Scenario Alpha,Case B - CMM + CUM,Triangular,Independent,0.0,HVAC,0.8954898581065659,121.17114871408536,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Global Gaussian copula,0.25,HVAC,0.8938011115880965,123.1291152025292,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,HVAC,0.8937642389628888,123.1718660616475,0.0
+Scenario Alpha,Case A - CUM,Triangular,Global Gaussian copula,0.25,HVAC,0.8931421721685924,123.89310274429069,0.0
+Scenario Alpha,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.25,HVAC,0.8931183196126209,123.92075787473505,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Global Gaussian copula,0.25,HVAC,0.8886509592670075,41.52539776055488,0.0
+Scenario Alpha,Case A - CUM,Truncated normal,Independent,0.0,HVAC,0.8882108652556163,129.61055860533338,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,HVAC,0.8880061354497816,41.76587190671296,0.0
+Scenario Alpha,Case A - CUM,Triangular,Independent,0.0,HVAC,0.8879983593169145,129.85694224078293,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Global Gaussian copula,0.25,HVAC,0.8834773422578235,43.45479475178991,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Subsystem-block Gaussian copula,0.25,HVAC,0.8832188312918802,43.55120124631912,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Global Gaussian copula,0.75,HVAC,0.863508640786689,50.90172259142008,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.75,HVAC,0.8633482580889998,50.96153411086931,0.0
+Scenario Bravo,Case A - CUM,Triangular,Global Gaussian copula,0.75,HVAC,0.8606220162032404,51.97823149732557,0.0
+Scenario Bravo,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.75,HVAC,0.8606057475714726,51.984298558170735,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Global Gaussian copula,0.5,HVAC,0.8576353252448748,53.092058156428834,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.5,HVAC,0.8571483860644413,53.27365238498789,0.0
+Scenario Bravo,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.5,HVAC,0.8549036092899058,54.11079698751541,0.0
+Scenario Bravo,Case A - CUM,Triangular,Global Gaussian copula,0.5,HVAC,0.8547324455727429,54.17462907255703,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Truncated normal,Independent,0.0,HVAC,0.852850350421709,54.87651881723207,0.0
+Scenario Bravo,Case C - CMM + CUM + DBM + IGM,Triangular,Independent,0.0,HVAC,0.8506738763747734,55.68819128355574,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Global Gaussian copula,0.25,HVAC,0.84883587321712,56.373637801139466,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Subsystem-block Gaussian copula,0.25,HVAC,0.8487313879535088,56.41260349049799,0.0
+Scenario Bravo,Case A - CUM,Triangular,Global Gaussian copula,0.25,HVAC,0.8468633369255556,57.10925576035254,0.0
+Scenario Bravo,Case A - CUM,Triangular,Subsystem-block Gaussian copula,0.25,HVAC,0.8468464421638203,57.11555632384648,0.0
+Scenario Bravo,Case B - CMM + CUM,Truncated normal,Independent,0.0,HVAC,0.8444444050886417,58.01134801029286,0.0
+Scenario Bravo,Case B - CMM + CUM,Triangular,Independent,0.0,HVAC,0.8429608420498431,58.56461317435202,0.0
+Scenario Bravo,Case A - CUM,Truncated normal,Independent,0.0,HVAC,0.832190146863097,62.58132853034522,0.0
+Scenario Bravo,Case A - CUM,Triangular,Independent,0.0,HVAC,0.8315700174872455,62.81259337848155,0.0

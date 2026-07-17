@@ -1,0 +1,13 @@
+Parameter,Value
+Focused scenario,Scenario Bravo
+Focused uncertainty case,Case C - CMM + CUM + DBM + IGM
+Focused distribution,Truncated normal
+Focused dependency model,Global Gaussian copula
+Focused latent correlation,0.75
+Target subsystem,FW
+Maximum convergence sample size,"1,000,000"
+Convergence sample sizes,"70 log-spaced cumulative points from 100 to 1,000,000, including 100k, 250k and 500k"
+Chunk size,"25,000"
+Random seed,19046608
+P99 ratio stability tolerance,0.005
+Overload probability stability tolerance,0.5 percentage points
