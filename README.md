@@ -24,6 +24,8 @@ The cooling system is arranged as a cascade:
 
 ![Cascading cooling system showing HVAC to CW to FW to the ultimate heat sink](assets/cooling-system-cascade.svg)
 
+Throughout the project figures, HVAC is shown in purple, CW in blue, FW in green, and the ultimate heat sink in orange.
+
 This means that the load from one system is passed into the next system downstream.
 
 The system contains the following local consumer loads:
