@@ -176,6 +176,12 @@ The project is organised as a set of Jupyter notebooks.
 
 Each notebook performs one stage of the analysis.
 
+## Notebook 01: Key Terms and Acronyms
+
+This notebook defines the main engineering, uncertainty, Monte Carlo, dependency modelling, sensitivity, and verification terms used throughout the project.
+
+It is intended as a quick reference before reading the analysis notebooks.
+
 ## Notebook 02: Data Ingestion and EDA
 
 This notebook loads the raw data workbook and checks the structure of the dataset.
