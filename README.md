@@ -52,16 +52,6 @@ CW total load = HVAC total load + sum of CW consumer loads
 FW total load = CW total load + sum of FW consumer loads
 ```
 
-Or, written another way:
-
-```text
-HVAC total = HVAC local loads
-
-CW total = HVAC total + CW local loads
-
-FW total = CW total + FW local loads
-```
-
 This cascade structure is important because the FW system receives the accumulated load from both upstream systems.
 
 ## Operating Scenarios
@@ -87,8 +77,8 @@ For example, in Scenario Alpha:
 
 ```text
 ITEM_000114 CW base load = 12.99 kW
-Scenario Alpha LF = 0.98
-Scenario Alpha UF = 1.00
+Scenario Alpha Lf = 0.98
+Scenario Alpha Uf = 1.00
 
 Scenario Alpha load = 12.99 x 0.98 x 1.00
                     = 12.73 kW
@@ -98,8 +88,8 @@ In Scenario Bravo, the same item is switched off:
 
 ```text
 ITEM_000114 CW base load = 12.99 kW
-Scenario Bravo LF = 0.00
-Scenario Bravo UF = 0.00
+Scenario Bravo Lf = 0.00
+Scenario Bravo Uf = 0.00
 
 Scenario Bravo load = 12.99 x 0.00 x 0.00
                     = 0.00 kW
