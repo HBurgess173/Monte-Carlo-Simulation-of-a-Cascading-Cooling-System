@@ -44,6 +44,10 @@ The total load from CW is then passed into FW.
 
 This means that the downstream systems do not only cool their own local consumers. They also receive the loads from upstream systems.
 
+The following figure shows how local consumer loads enter each subsystem and how the cumulative load is passed downstream:
+
+![Sankey-style energy flow through the cascading cooling system](outputs/figures/cascade-cooling-energy-flow.svg)
+
 The total subsystem loads are calculated as:
 
 ```text
