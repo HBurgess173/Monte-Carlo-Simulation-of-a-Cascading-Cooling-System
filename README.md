@@ -22,9 +22,7 @@ The cooling system used in this project is made up of three connected subsystems
 
 The cooling system is arranged as a cascade:
 
-```text
-HVAC -> CW -> FW -> Ultimate Heat Sink
-```
+![Cascading cooling system showing HVAC to CW to FW to the ultimate heat sink](assets/cooling-system-cascade.svg)
 
 This means that the load from one system is passed into the next system downstream.
 
