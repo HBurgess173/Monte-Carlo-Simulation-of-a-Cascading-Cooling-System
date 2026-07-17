@@ -74,7 +74,7 @@ In each scenario, a different subset of consumers may be switched on or off. Con
 A simplified scenario load calculation is:
 
 ```text
-Scenario load = Base load x Load factor x Uncertainty factor
+Scenario load = Base load x Load factor 
 ```
 
 ## Example Scenario Load Calculation
@@ -101,7 +101,7 @@ Scenario Bravo load = 12.99 x 0.00 x 0.00
                     = 0.00 kW
 ```
 
-This means that the same consumer can contribute load in one scenario and no load in another scenario.
+This means that the same consumer can contribute load in one scenario and no load or a different load in another scenario.
 
 ## Why Monte Carlo Simulation Is Used
 
@@ -109,9 +109,7 @@ A deterministic calculation gives one fixed answer.
 
 It answers the question:
 
-```text
 Does the system pass or fail for one set of predicted loads?
-```
 
 However, real engineering loads are uncertain.
 
@@ -192,9 +190,7 @@ This notebook calculates the deterministic baseline load for each subsystem.
 
 It applies the cascade calculation:
 
-```text
 HVAC -> CW -> FW
-```
 
 The deterministic baseline is used as the starting point for the project.
 
