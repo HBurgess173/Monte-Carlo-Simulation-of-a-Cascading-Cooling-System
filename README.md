@@ -1,197 +1,285 @@
-# Probabilistic Reliability Assessment of a Cascaded Cooling System Using Monte Carlo Simulation
+# Monte Carlo Simulation of a Cascading Cooling System
 
 ## Project Overview
 
-This repository contains the code, analysis, and supporting documentation for an MSc Data Science final project investigating the probabilistic reliability of a cascaded cooling system. The project uses a cooling-load dataset representing a three-stage cooling chain with two defined operating states. The three systems considered in the cooling chain are System H, System C, and System F.
+This project assesses the reliability of a cascading cooling system using Monte Carlo simulation.
 
-Traditional engineering assessment of cooling systems is often based on deterministic heat-load estimates. Under this approach, predicted loads are treated as fixed values and compared directly against available system capacity. Although this provides a clear pass/fail assessment, it does not account for uncertainty in predicted consumer loads, operational variability, modelling assumptions, or incomplete knowledge of system behaviour. This can lead to over-confidence in available cooling margins, particularly in cascaded systems where uncertainty may propagate downstream.
+The main purpose of the project is to move away from a simple deterministic pass/fail assessment and instead estimate the probability that cooling loads may exceed the available cooling capacity.
 
-The aim of this project is to develop a reproducible probabilistic reliability assessment framework that uses Monte Carlo simulation to propagate heat-load uncertainty through a cascaded cooling architecture. The framework estimates the probability of subsystem overload and consumer-level margin exceedance under two operating states. Alternative uncertainty distributions and dependency assumptions are compared to assess how modelling choices influence estimated overload risk.
+Modern cooling systems are often designed and assessed using fixed predicted heat loads. However, predicted loads are uncertain because of modelling assumptions, operational variability, and incomplete knowledge of how the system will behave in practice.
 
-The final output is a structured data science workflow that supports risk-based assessment of cooling-system adequacy, moving beyond a binary deterministic pass/fail calculation.
+If predicted loads are treated as exact values, the assessment may become over-confident. It may also hide the probability of overload in complex systems that serve many consumers.
 
----
+This project therefore treats cooling system adequacy as a risk-based problem rather than a simple binary pass/fail check.
 
-## Research Aim
+## The Cooling System
 
-The aim of this project is to develop and evaluate a Monte Carlo simulation framework for assessing the reliability of a cascaded cooling system under uncertain consumer heat loads.
+The cooling system used in this project is made up of three connected subsystems:
 
-The project reframes cooling-load assessment as a probabilistic reliability problem by estimating:
+- HVAC: Heating, Ventilation and Air Conditioning
+- CW: Chilled Water
+- FW: Fresh Water
 
-* the probability of subsystem cooling capacity exceedance;
-* the probability of individual consumers exceeding permissible load margins;
-* the effect of uncertainty propagation through the cooling chain;
-* the sensitivity of overload risk to distributional and dependency assumptions.
-
----
-
-## System Description
-
-The cooling system is represented as a cascaded architecture consisting of three interconnected systems:
+The cooling system is arranged as a cascade:
 
 ```text
-System H → System C → System F
+HVAC -> CW -> FW -> Ultimate Heat Sink
 ```
 
-Each system serves a set of local consumers. Downstream systems are affected by both their own local consumer loads and the propagated load from upstream systems. As a result, uncertainty in upstream heat loads can influence downstream system reliability.
+This means that the load from one system is passed into the next system downstream.
 
-The dataset contains two operating states. These operating states allow the reliability of the cooling chain to be assessed under different loading conditions. System capacities and consumer loads are compared separately for each operating state.
+The system contains the following local consumer loads:
 
----
+| Subsystem | Local consumers |
+|---|---:|
+| HVAC | 2326 |
+| CW | 199 |
+| FW | 66 |
 
-## Methodology Summary
+## How Loads Propagate Through the System
 
-The project follows a structured data science workflow.
+The load from HVAC is passed into CW.
 
-### 1. Data Ingestion and Exploratory Data Analysis
+The total load from CW is then passed into FW.
 
-The provided cooling-load dataset is loaded, inspected, and assessed for quality. Exploratory Data Analysis is used to understand the dataset structure, consumer load characteristics, uncertainty values, margin values, and subsystem capacity constraints.
+This means that the downstream systems do not only cool their own local consumers. They also receive the loads from upstream systems.
 
-The EDA stage includes checks for:
-
-* dataset shape and column structure;
-* missing values;
-* duplicate records;
-* consumer counts by subsystem;
-* load distributions by subsystem;
-* comparison between operating states;
-* uncertainty and margin characteristics;
-* nominal load versus available capacity.
-
-### 2. Deterministic Baseline Assessment
-
-A deterministic baseline is calculated to represent the conventional engineering assessment method. In this stage, nominal consumer loads are summed and propagated through the cooling chain. The resulting subsystem loads are compared against available cooling capacity to determine deterministic pass/fail outcomes.
-
-This baseline provides a reference point for interpreting the probabilistic Monte Carlo results.
-
-### 3. Uncertainty Modelling
-
-Uncertainty in predicted consumer heat loads is represented using parametric probability distributions. Two uncertainty models are compared:
-
-* triangular distribution;
-* truncated normal distribution.
-
-These distributions are used to model uncertainty around nominal consumer load values while enforcing physically meaningful load bounds.
-
-### 4. Monte Carlo Simulation
-
-Monte Carlo simulation is used to repeatedly sample uncertain consumer loads and propagate them through the cascaded system. For each simulation iteration, the framework calculates subsystem loads for System H, System C, and System F, then records whether each subsystem exceeds its available capacity.
-
-Consumer-level exceedance events are also recorded by comparing sampled consumer loads against permissible maximum loads.
-
-### 5. Dependency Modelling
-
-Alternative dependency assumptions are compared to assess the influence of correlated consumer demand. The project considers independent sampling as a baseline and compares this against correlated demand assumptions.
-
-Dependency modelling is included because real engineering loads are unlikely to vary fully independently. Consumers may increase or decrease together depending on operating conditions, subsystem behaviour, or common demand drivers.
-
-### 6. Sensitivity Analysis
-
-Sensitivity analysis is used to identify which consumers and modelling assumptions have the greatest influence on overload risk. This provides interpretability and supports the data science contribution of the project.
-
-Planned sensitivity methods include:
-
-* consumer risk ranking;
-* Spearman rank correlation;
-* logistic regression for overload classification;
-* scenario comparison across uncertainty and dependency assumptions;
-* optional screening analysis for dominant load contributors.
-
-### 7. Verification and Convergence Testing
-
-Because the project does not use measured operational outcomes for validation, model evaluation focuses on internal verification, convergence, and robustness testing.
-
-Verification checks are used to confirm that:
-
-* load propagation through the cascade is implemented correctly;
-* failure logic is applied consistently;
-* sampled loads remain physically meaningful;
-* zero-uncertainty cases reproduce deterministic results;
-* overload probabilities behave sensibly under high-capacity and low-capacity test cases.
-
-Monte Carlo convergence testing is used to assess the stability of estimated overload probabilities as the number of simulation iterations increases.
-
----
-
-## Repository Structure
+The total subsystem loads are calculated as:
 
 ```text
-msc-cooling-monte-carlo/
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── example/
-│
-├── notebooks/
-│   ├── 01_project_overview.ipynb
-│   ├── 02_data_ingestion_and_eda.ipynb
-│   ├── 03_deterministic_baseline.ipynb
-│   ├── 04_uncertainty_modelling.ipynb
-│   ├── 05_monte_carlo_simulation.ipynb
-│   ├── 06_dependency_modelling.ipynb
-│   ├── 07_sensitivity_analysis.ipynb
-│   ├── 08_verification_and_convergence.ipynb
-│   └── 09_results_and_discussion.ipynb
-│
-├── src/
-│   └── cooling_mc/
-│       ├── data_loader.py
-│       ├── data_validation.py
-│       ├── eda.py
-│       ├── distributions.py
-│       ├── copula.py
-│       ├── cascade_model.py
-│       ├── simulation.py
-│       ├── metrics.py
-│       ├── sensitivity.py
-│       └── visualisation.py
-│
-├── outputs/
-│   ├── figures/
-│   ├── tables/
-│   └── logs/
-│
-└── report/
-    ├── methodology_notes.md
-    ├── results_summary.md
-    └── limitations.md
+HVAC total load = sum of HVAC consumer loads
+
+CW total load = HVAC total load + sum of CW consumer loads
+
+FW total load = CW total load + sum of FW consumer loads
 ```
 
----
+Or, written another way:
 
-## Notebook Guide
+```text
+HVAC total = HVAC local loads
 
-The project analysis is organised into a sequence of notebooks.
+CW total = HVAC total + CW local loads
 
-| Notebook                                                                                 | Description                                                                           |
-| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [01_project_overview.ipynb](notebooks/01_project_overview.ipynb)                         | Introduces the project aim, system architecture, research questions, and methodology. |
-| [02_data_ingestion_and_eda.ipynb](notebooks/02_data_ingestion_and_eda.ipynb)             | Loads the cooling-load dataset and performs exploratory data analysis.                |
-| [03_deterministic_baseline.ipynb](notebooks/03_deterministic_baseline.ipynb)             | Calculates nominal subsystem loads and deterministic pass/fail results.               |
-| [04_uncertainty_modelling.ipynb](notebooks/04_uncertainty_modelling.ipynb)               | Defines triangular and truncated normal uncertainty models.                           |
-| [05_monte_carlo_simulation.ipynb](notebooks/05_monte_carlo_simulation.ipynb)             | Runs the core Monte Carlo simulation and calculates reliability metrics.              |
-| [06_dependency_modelling.ipynb](notebooks/06_dependency_modelling.ipynb)                 | Compares independent and correlated consumer demand assumptions.                      |
-| [07_sensitivity_analysis.ipynb](notebooks/07_sensitivity_analysis.ipynb)                 | Identifies consumers and assumptions that most influence overload risk.               |
-| [08_verification_and_convergence.ipynb](notebooks/08_verification_and_convergence.ipynb) | Performs model verification, robustness checks, and convergence testing.              |
-| [09_results_and_discussion.ipynb](notebooks/09_results_and_discussion.ipynb)             | Summarises key findings, limitations, and interpretation of results.                  |
+FW total = CW total + FW local loads
+```
 
----
+This cascade structure is important because the FW system receives the accumulated load from both upstream systems.
 
-## Key Outputs
+## Operating Scenarios
 
-The project produces the following outputs:
+Two operating scenarios are assessed:
 
-* deterministic subsystem load and capacity comparison tables;
-* Monte Carlo overload probability estimates;
-* consumer-level margin exceedance probabilities;
-* load percentile summaries;
-* scenario comparison tables;
-* sensitivity rankings;
-* convergence plots;
-* verification test results;
-* final visualisations for academic reporting.
+- Scenario Alpha
+- Scenario Bravo
+
+Each scenario represents a different operating state of the system.
+
+In each scenario, a different subset of consumers may be switched on or off. Consumers also have load factors that alter the load placed on the cooling system in that scenario.
+
+A simplified scenario load calculation is:
+
+```text
+Scenario load = Base load x Load factor x Uncertainty factor
+```
+
+## Example Scenario Load Calculation
+
+For example, in Scenario Alpha:
+
+```text
+ITEM_000114 CW base load = 12.99 kW
+Scenario Alpha LF = 0.98
+Scenario Alpha UF = 1.00
+
+Scenario Alpha load = 12.99 x 0.98 x 1.00
+                    = 12.73 kW
+```
+
+In Scenario Bravo, the same item is switched off:
+
+```text
+ITEM_000114 CW base load = 12.99 kW
+Scenario Bravo LF = 0.00
+Scenario Bravo UF = 0.00
+
+Scenario Bravo load = 12.99 x 0.00 x 0.00
+                    = 0.00 kW
+```
+
+This means that the same consumer can contribute load in one scenario and no load in another scenario.
+
+## Why Monte Carlo Simulation Is Used
+
+A deterministic calculation gives one fixed answer.
+
+It answers the question:
+
+```text
+Does the system pass or fail for one set of predicted loads?
+```
+
+However, real engineering loads are uncertain.
+
+Monte Carlo simulation allows the project to test many possible load combinations. Instead of assuming every load is fixed, each uncertain load is sampled many times from a probability distribution.
+
+This allows the project to estimate:
+
+- the probability that a subsystem exceeds its available cooling capacity;
+- how close each subsystem gets to its capacity;
+- which consumers have the strongest influence on the final system risk;
+- how different uncertainty assumptions affect the result;
+- how dependency between loads affects downstream risk.
+
+## Project Motivation
+
+Modern cooling systems are often assessed using deterministic heat load estimates.
+
+This can be useful, but it does not show how likely overload is when the input loads are uncertain.
+
+This is especially important in complex systems that serve many consumers. Small uncertainties across many consumers can combine and propagate through the cascade.
+
+The project is focused on a no-measured-data scenario. This reflects realistic engineering situations where measured operational data may not be available, for example during early-stage design or where testing is too costly.
+
+## Project Objectives
+
+The project aims to answer the following questions:
+
+1. Can a Monte Carlo simulation framework be designed to propagate uncertainty through a cascaded cooling system?
+2. What is the probability that each subsystem exceeds its available cooling capacity?
+3. Which consumers have the strongest influence on the cooling system risk?
+4. How do different uncertainty assumptions affect the results?
+5. How does dependency between loads affect downstream risk amplification?
+
+## Uncertainty Modelling
+
+Two uncertainty models are compared:
+
+- Triangular distribution
+- Truncated normal distribution
+
+These distributions are used to represent uncertainty in the predicted consumer loads.
+
+The triangular distribution is simple and bounded.
+
+The truncated normal distribution is also bounded, but allows values to vary around the expected load in a more statistically familiar way.
+
+Using two distributions allows the project to test whether the conclusions are sensitive to the choice of uncertainty model.
+
+## Dependency Modelling
+
+The project also compares independent and dependent load assumptions.
+
+In the independent model, each consumer load varies separately.
+
+In the dependent model, loads can rise or fall together.
+
+This matters because cooling loads may be affected by common operating conditions. For example, if one load is high, other related loads may also be high.
+
+Positive dependency can increase risk because several high-load consumers may occur at the same time.
+
+## Notebook Workflow
+
+The project is organised as a set of Jupyter notebooks.
+
+Each notebook performs one stage of the analysis.
+
+## Notebook 02: Data Ingestion and EDA
+
+This notebook loads the raw data workbook and checks the structure of the dataset.
+
+It reshapes the data into a modelling format and counts the number of load records assigned to HVAC, CW and FW.
+
+It also identifies rows that represent propagated loads between systems. This is important because propagated loads must not be counted twice.
+
+## Notebook 03: Deterministic Baseline
+
+This notebook calculates the deterministic baseline load for each subsystem.
+
+It applies the cascade calculation:
+
+```text
+HVAC -> CW -> FW
+```
+
+The deterministic baseline is used as the starting point for the project.
+
+It shows whether the system passes or fails when all loads are treated as fixed values.
+
+## Notebook 04: Uncertainty Modelling
+
+This notebook defines the uncertainty distributions used in the Monte Carlo simulation.
+
+It creates the triangular and truncated normal sampling parameters for each consumer load.
+
+It also checks that sampled values remain within the expected physical bounds.
+
+## Notebook 05: Independent Monte Carlo Simulation
+
+This notebook runs the Monte Carlo simulation assuming that all consumer loads are independent.
+
+It calculates:
+
+- mean sampled load;
+- P95 load;
+- P99 load;
+- spare capacity;
+- load-to-capacity ratio;
+- overload probability.
+
+This gives the first probabilistic view of the system.
+
+## Notebook 06: Dependency Modelling
+
+This notebook introduces dependency between loads.
+
+A Gaussian copula is used to model correlated demand.
+
+This tests whether the system risk changes when high loads are more likely to occur together.
+
+This is important because dependency can increase downstream risk in a cascaded system.
+
+## Notebook 07: Sensitivity Analysis
+
+This notebook identifies which consumers and assumptions have the strongest influence on the result.
+
+It uses:
+
+- Spearman correlation;
+- logistic regression where overload events exist;
+- Design of Experiments style screening.
+
+The purpose is to understand what is driving the risk, rather than only reporting the final overload probability.
+
+## Notebook 08: Verification and Convergence
+
+This notebook checks that the model behaves correctly.
+
+It verifies:
+
+- conservation of load propagation through the cascade;
+- enforcement of physical bounds on sampled values;
+- consistency of overload probability with increasing uncertainty;
+- Monte Carlo convergence with increasing sample size.
+
+The convergence check confirms that the simulation result is stable enough for interpretation.
+
+## Notebook 09: Results and Discussion
+
+This notebook brings together the results from the previous notebooks.
+
+It explains the main findings in plain language and discusses what they mean for the cooling system.
+
+The key conclusion is that deterministic and independent uncertainty assumptions do not show overload, but positive dependency between loads can create a material overload risk in the downstream FW system.
+
+## Overall Conclusion
+
+The project shows that deterministic analysis alone can understate the risk in a cascaded cooling system.
+
+When loads are treated as fixed values, the system appears to pass.
+
+When uncertainty is included independently, the system still remains below capacity in the assessed cases.
+
+However, when positive dependency is introduced, high-load conditions can occur together. This increases the downstream FW load and can lead to capacity exceedance under the most conservative case.
+
+The project therefore shows why Monte Carlo simulation and dependency modelling can provide a more informative assessment of cooling system reliability than a simple deterministic pass/fail calculation.
