@@ -28,7 +28,7 @@ Throughout the project figures, HVAC is shown in purple, CW in blue, FW in green
 
 This means that the load from one system is passed into the next system downstream.
 
-The system contains the following local consumer loads:
+The system contains the following number of local consumer loads:
 
 | Subsystem | Local consumers |
 |---|---:|
@@ -264,7 +264,7 @@ The convergence check confirms that the simulation result is stable enough for i
 
 This notebook brings together the results from the previous notebooks.
 
-It explains the main findings in plain language and discusses what they mean for the cooling system.
+It explains the main findings and discusses what they mean for the cooling system.
 
 The key conclusion is that deterministic and independent uncertainty assumptions do not show overload, but positive dependency between loads can create a material overload risk in the downstream FW system.
 
